@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // IMPORTANT: Update base to GitHub Pages repo slug
 export default defineConfig(({ mode }) => ({
-  base: '/spectre-threat-research/', // <-- Replace with your repo name if different!
+  base: '/shadow-spectre-portal-zero/', // <-- Replace with your repo name if different!
   server: {
     host: "::",
     port: 8080,

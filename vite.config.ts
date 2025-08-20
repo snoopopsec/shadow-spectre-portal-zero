@@ -1,12 +1,10 @@
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// IMPORTANT: Update base to GitHub Pages repo slug
+// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/spectre-threat-research/', // <-- Replace with your repo name if different!
   server: {
     host: "::",
     port: 8080,

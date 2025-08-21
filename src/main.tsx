@@ -1,7 +1,9 @@
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
 
 createRoot(document.getElementById('root')!).render(
-  <div style={{ padding: 24, fontFamily: 'monospace' }}>
-    Minimal smoke test
-  </div>
+  <BrowserRouter basename="/shadow-spectre-portal-zero">
+    <App />
+  </BrowserRouter>
 )
